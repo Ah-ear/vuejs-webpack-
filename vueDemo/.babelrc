@@ -1,5 +1,11 @@
 {
   "presets": [
     ["env", { "modules": false }]
+  ],
+  "plugins": [
+    "syntax-dynamic-import",
+    "transform-async-to-generator",
+    "transform-regenerator",
+    "transform-runtime"
   ]
 }
